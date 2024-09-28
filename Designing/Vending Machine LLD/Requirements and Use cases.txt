@@ -1,0 +1,22 @@
+Vending machine requirements: (Machines perspective)
+	-Machine can accept cash from User
+	-Machine can accept Product code from user
+	-Machine validates Product Code, cash and quantity in inventory
+	-Machine dispense product
+	-Machine dispense remaining balance
+	
+
+Use cases: (User can be an actor, but we are going with machines perspective only)
+	Actors:
+		Machine:
+			Initaiate Transaction
+			Accept cash
+			Accept Product code
+			Validate inputs
+			Dispense product
+			Dispense remaining balance
+			Abort transaction
+			Finish transaction
+			
+		User : same actions can be done by user, but here we will go with machine only
+	
