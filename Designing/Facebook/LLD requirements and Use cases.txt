@@ -1,0 +1,42 @@
+Requirements:
+
+	User Account
+	User posts
+	Comment on post
+	Connection/Friendship
+	Messaging/Chat
+	News feed
+
+
+
+
+
+Use case diagrams:
+
+
+
+	User :
+		Actions:
+			Login/Logout  : all other APIs can be triggered only when isLoggedIn is true
+			Update profile
+			Create a post  
+			Like a post
+			Comment on a post 
+			Send connection request to another user
+			Accept connection request of another user
+			Send message to another user -- Implement later
+			
+		What User shoud have:
+			List<Posts> : posts by user
+			List<User> : connection list
+			List<Post> : new feed
+			
+		Try to have these in global storage (not limited to user, check if possible), else use Observer design pattern
+		
+		
+	Additional actors:
+		Page group admin (if we include pages)
+		System : (used to find friend suggestion to a user)
+		
+		
+		
