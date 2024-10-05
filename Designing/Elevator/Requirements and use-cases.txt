@@ -1,0 +1,19 @@
+Elevator System:
+	Requirements:
+		Centralised system
+		N-number of elevator carts
+		N-Number of floors
+		Floor has two buttons: up and down
+		Cart has buttons with number of floors
+		
+	Logical:
+	
+		Approach1: if a user press button from floor : request will go to dispatcher and it decides which cart to stop there
+			request will go to single cart
+		Approach2 : Request will remain open until any cart moving in requested direction doesn't stop at that floor
+		
+		If button pressed inside cart, cart has to stop at that floor
+		
+		
+		
+		
