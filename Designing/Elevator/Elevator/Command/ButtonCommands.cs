@@ -28,7 +28,7 @@ namespace Elevator.Command
 
         }
 
-        public void ExecuteCommand((object, object) commandTuple)  //<cart, floorNumber, 
+        public void ExecuteCommand((object, object) commandTuple)  //<cart, floorNumber> 
         {
             int floorNumber = (int)commandTuple.Item1;
             Cart cart = (Cart)commandTuple.Item2;
